@@ -1,0 +1,49 @@
+# ============================================================
+# QuantScanner 2026 — Stock Swing Trading Scanner
+# Hardware: Intel i7-14700K (20 cores) + NVIDIA RTX 4070 Super
+# ============================================================
+
+# --- Data Sources ---
+yfinance>=0.2.36
+bsedata>=0.6.0
+nsetools>=1.0.11
+
+# --- Data Processing ---
+pandas>=2.2.0
+numpy>=1.26.0
+
+# --- GPU Acceleration (RTX 4070 Super — CUDA 12.x, Ada Lovelace) ---
+cupy-cuda12x>=13.0.0
+
+# --- Technical Analysis ---
+ta>=0.11.0
+mplfinance>=0.12.10b0
+matplotlib>=3.8.0
+
+# --- Caching ---
+diskcache>=5.6.3
+
+# --- Scheduling ---
+APScheduler>=3.10.4
+
+# --- Logging ---
+loguru>=0.7.2
+
+# --- Data Validation ---
+pydantic>=2.6.0
+
+# --- HTTP / Networking ---
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# --- Progress Bars ---
+tqdm>=4.66.0
+
+# --- System Monitoring ---
+psutil>=5.9.8
+
+# --- Web Framework ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+jinja2>=3.1.3
+python-multipart>=0.0.9
